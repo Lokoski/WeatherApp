@@ -23,12 +23,12 @@ body, html {
   background:rgb(65, 58, 9);
   border: 1px solid black;
   box-shadow: 20px 20px 15px 10px rgba(0, 0, 0, 1);
-  height: 575px;
-  width: 45%;
+  height: 550px;
+  width: 52%;
   border-radius: 10px;
   opacity: 0.75;
   position: relative;
-  padding: 30px;
+  padding: 40px;
 }
 
 .header h2 {
@@ -77,7 +77,7 @@ body, html {
   align-items: center;
   font-size: 1.1rem;
   flex-direction: column;
-  margin-top:50px;
+  margin-top:40px;
 }
 
 .weather-info i {
@@ -105,7 +105,7 @@ body, html {
 @media screen and (min-width: 700px) {
     .weather-box{
       height: 600px;
-      width: 40%;
+      width: 30%;
     }
     .weather-info{
       font-size: 1.3rem;
