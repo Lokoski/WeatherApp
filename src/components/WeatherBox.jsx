@@ -102,7 +102,7 @@ const searchWeatherButton = async (e) => {
       </header>
       {/* <p className="error">Invalid city</p> */}
       <section className="weather-info">
-            {weather.temp === null ? (<p>No weather to display<i className="material-icons">wb_sunny</i></p>) : <WeatherInfo weather={weather}/>}
+            {weather.temp === null ? (<p>Please enter a city name<i className="material-icons">wb_sunny</i></p>) : <WeatherInfo weather={weather}/>}
       </section>
     </div>
   );

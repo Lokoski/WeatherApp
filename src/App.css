@@ -23,7 +23,7 @@ body, html {
   background:rgb(65, 58, 9);
   border: 1px solid black;
   box-shadow: 20px 20px 15px 10px rgba(0, 0, 0, 1);
-  height: 600px;
+  height: 575px;
   width: 45%;
   border-radius: 10px;
   opacity: 0.75;
@@ -62,7 +62,6 @@ body, html {
   outline: none;
   color: #d5d8dc;
   font-size: 1.25rem;
-  cursor: pointer;
 }
 
 .search-input::-webkit-input-placeholder{
@@ -103,3 +102,12 @@ body, html {
   content:'\00b0'
 }
 
+@media screen and (min-width: 700px) {
+    .weather-box{
+      height: 600px;
+      width: 40%;
+    }
+    .weather-info{
+      font-size: 1.3rem;
+    }
+}
