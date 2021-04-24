@@ -23,12 +23,12 @@ body, html {
   background:rgb(65, 58, 9);
   border: 1px solid black;
   box-shadow: 20px 20px 15px 10px rgba(0, 0, 0, 1);
-  height: 550px;
+  height: 560px;
   width: 55%;
   border-radius: 10px;
   opacity: 0.75;
   position: relative;
-  padding: 30px 40px;
+  padding: 40px;
 }
 
 .header h2 {
