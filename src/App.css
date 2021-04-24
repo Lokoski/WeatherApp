@@ -24,11 +24,11 @@ body, html {
   border: 1px solid black;
   box-shadow: 20px 20px 15px 10px rgba(0, 0, 0, 1);
   height: 550px;
-  width: 52%;
+  width: 55%;
   border-radius: 10px;
   opacity: 0.75;
   position: relative;
-  padding: 40px;
+  padding: 30px 40px;
 }
 
 .header h2 {
