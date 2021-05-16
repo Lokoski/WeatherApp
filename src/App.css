@@ -5,6 +5,8 @@ html {
   padding: 0;
   background-image: url(./assets/weather.jpeg);
   height: 100vh;
+  width: 100vw;
+  max-width: 100%;
   /* Center and scale the image */
   background-position: center;
   background-repeat: no-repeat;
